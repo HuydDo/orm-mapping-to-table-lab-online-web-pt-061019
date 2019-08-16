@@ -40,3 +40,7 @@ class Student
     last_insert_rowid() FROM students")[0][0]
   end
 end
+
+Students.create_table
+student = Students.new(name, grade)
+student.save
